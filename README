@@ -1,0 +1,14 @@
+This is a GPS monitoring support application which was made for people who would like to remember things or activities based on their location. 
+The user can add new pin to the map by a long touch gesture, when a category list appears (shopping, medicine and meeting) the user chooses
+the category and based on the category a new list with previously added elements appear. 
+
+To store the previous data as markers and as texts I used CoreData.
+When the user gets close to a certain marker the device detects the location and sends the notification to a user as a message and a sound.
+The user can add new elements to the category list and can also delete them by swiping right. 
+The markers and pins can be also deleted by pressing the Del button on the marker.
+
+FUTURE PLAN
+-Add more categories
+-Access item database to make a better list
+-Acces Facebook friend list and update the tableview according to that
+-Add rout desing support
